@@ -3,7 +3,6 @@
 
 The aim of this assignment is to train a machine learning model parallely on ec2 instances for predicting wine quality using the publicly available data and trained model to predict the wine quality. This assignment also uses Docker to create a container image for trained machine learning model to simplify deployments. This is application built using pySpark interface of Python and it is deployed on AWR EMR cluster.
 
-Link to github code –
 
 Link to docker container image –
 https://hub.docker.com/repository/docker/aurovind/cloud-computing-pa2/general
