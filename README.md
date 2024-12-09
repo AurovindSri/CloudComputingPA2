@@ -33,7 +33,7 @@ Now when cluster is ready to accept jobs, submit one you can either use step but
         
 4. Run ML model using Docker
 - Install docker 
-- Build the image of the docker file using command cmd – docker build -t wine_docker1 .
+- Build the image of the docker file using command cmd – docker build -t aurovind/cloud-computing-pa2:latest .
 - You can push this in docker hub repository
 - docker push docker push aurovind/cloud-computing-pa2
 - Place your testdata file in a folder (let’s call it directory dirA) , which you will mount with docker container and run it below using the below command.
