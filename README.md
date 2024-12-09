@@ -36,7 +36,7 @@ Now when cluster is ready to accept jobs, submit one you can either use step but
 - Install docker 
 - Build the image of the docker file using command cmd – docker build -t wine_docker1 .
 - You can push this in docker hub repository
-- docker push docker push rr724/cloudcomputingpa2:pa2assignment
+- docker push docker push aurovind/cloud-computing-pa2
 - Place your testdata file in a folder (let’s call it directory dirA) , which you will mount with docker container and run it below using the below command.
 
 docker run -v /Users/<username>/<path-to-folder>/<appname> /data/csv:/code/data/csv <username>/<user> testdata.csv
