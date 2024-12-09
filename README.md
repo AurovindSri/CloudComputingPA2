@@ -21,14 +21,14 @@ Instruction to use:
 - Rest of parameters can be left default.
 -	Cluster status should be 'Waiting' on successful cluster creation.
 
-2.	Create s3 bucket for storing code and the data. Upload the code and date to the s3 bucket. The URL should look something like this:  s3://wine-data-rr724/
+2.	Create s3 bucket for storing code and the data. Upload the code and date to the s3 bucket. The URL should look something like this:  s3://wine-data-ap2868/
 
 3. How to train ML model in Spark cluster with 4 ec2 instances in parallel
 Now when cluster is ready to accept jobs, submit one you can either use step button to add steps or submit manually.
 -	To submit manually, Perform SSH to Master of cluster using below command:
         ssh -i "ec2key.pem" <<User>>@<<Public IPv4 DNS>>
 -	On successful login to master , change to root user by running command: sudo su
--	Submit job using following command: spark-submit s3://wine-data-rr724/wine_prediction.py
+-	Submit job using following command: spark-submit s3://wine-data-ap2868/wine_prediction.py
 
 
         
